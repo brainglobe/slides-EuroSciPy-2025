@@ -1,0 +1,63 @@
+## BrainGlobe Atlas
+::: {style="font-size: 80%;"}
+Many similar communities working independently with brain atlases
+:::
+
+::: {.columns}
+::: {.column width="55%"}
+
+:::{.incremental style="font-size: 80%;"}
+* Model species
+* Imaging modality
+* Anatomical focus
+* Developmental stage
+:::
+
+:::
+
+::: {.column width="45%"}
+![](img/tracing.png)
+:::
+:::
+
+::: footer
+[Claudi, F. et al. (2020) “BrainGlobe Atlas API: a common interface for neuroanatomical atlases” JOSS, v5(54), 2668 ](https://doi.org/10.21105/joss.02668)
+:::
+
+## [`brainglobe-atlasapi`](https://github.com/brainglobe/brainglobe-atlasapi)
+![](img/atlases.png){.nostretch .absolute left="2%" top="18%"}
+
+::: footer
+[Claudi, F. et al. (2020) “BrainGlobe Atlas API: a common interface for neuroanatomical atlases” JOSS, v5(54), 2668 ](https://doi.org/10.21105/joss.02668)
+:::
+
+## [`brainglobe-atlasapi`](https://github.com/brainglobe/brainglobe-atlasapi) {.smaller}
+<br/>
+
+```{.python code-line-numbers="|1-2|4-6|8-10|12-22"}
+from brainglobe_atlasapi import BrainGlobeAtlas
+atlas = BrainGlobeAtlas("allen_mouse_25um")
+
+reference_image = atlas.reference
+print(reference_image.shape)
+# (528, 320, 456)
+
+annotation_image = atlas.annotation
+print(annotation_image.shape)
+# (528, 320, 456)
+
+VISp = atlas.structures["VISp"]
+print(VISp)
+
+# {'acronym': 'VISp',
+#  'id': 385,
+#  'mesh': None,
+#  'mesh_filename': PosixPath('/home/user/.brainglobe/allen_mouse_25um_v0.3/meshes/385.obj'),
+#  'name': 'Primary visual area',
+#  'rgb_triplet': [8, 133, 140],
+#  'structure_id_path': [997, 8, 567, 688, 695, 315, 669, 385]}
+```
+
+::: footer
+[Claudi, F. et al. (2020) “BrainGlobe Atlas API: a common interface for neuroanatomical atlases” JOSS, v5(54), 2668 ](https://doi.org/10.21105/joss.02668)
+:::

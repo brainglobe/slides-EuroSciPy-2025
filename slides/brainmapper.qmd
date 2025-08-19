@@ -1,0 +1,77 @@
+## Example data
+![](img/whole.png){fig-align="center" width=70%}
+
+## Example data
+![](img/crop.png){fig-align="center" width=70%}
+
+## Whole-brain registration
+### [`brainreg`](https://github.com/brainglobe/brainreg)
+
+![](img/brainreg_filtering.png){fig-align="center" width="110%"}
+
+
+::: footer
+[Tyson, A. L. et al. (2022) “Accurate determination of marker location within whole-brain microscopy images” Sci Rep, 12, 867](https://doi.org/10.1038/s41598-021-04676-9)
+:::
+
+## Whole-brain registration
+### [`brainreg`](https://github.com/brainglobe/brainreg)
+
+![](img/brainreg_napari.gif){fig-align="center" width="110%"}
+
+
+::: footer
+[Tyson, A. L. et al. (2022) “Accurate determination of marker location within whole-brain microscopy images” Sci Rep, 12, 867](https://doi.org/10.1038/s41598-021-04676-9)
+:::
+
+## Cell detection
+### [`cellfinder`](https://github.com/brainglobe/cellfinder)
+![](img/raw.png){fig-align="center" width=70%}
+
+::: footer
+[Tyson, A. L. et al. (2021) “A deep learning algorithm for 3D cell detection in whole mouse brain image datasets" PLoS Comp Biol 17(5): e1009074.](https://doi.org/10.1371/journal.pcbi.1009074)
+:::
+
+## Cell detection
+### [`cellfinder`](https://github.com/brainglobe/cellfinder)
+![](img/detect.png){fig-align="center" width=70%}
+
+::: footer
+[Tyson, A. L. et al. (2021) “A deep learning algorithm for 3D cell detection in whole mouse brain image datasets" PLoS Comp Biol 17(5): e1009074.](https://doi.org/10.1371/journal.pcbi.1009074)
+:::
+
+
+## Cell detection
+### [`cellfinder`](https://github.com/brainglobe/cellfinder)
+![](img/classify.png){fig-align="center" width=70%}
+
+::: footer
+[Tyson, A. L. et al. (2021) “A deep learning algorithm for 3D cell detection in whole mouse brain image datasets" PLoS Comp Biol 17(5): e1009074.](https://doi.org/10.1371/journal.pcbi.1009074)
+:::
+
+## Cell detection in atlas space
+![](img/heatmap.png){fig-align="center"}
+
+## Cell detection in atlas space
+```{python}
+import itables
+from IPython.display import display, HTML
+import pandas as pd
+data = pd.read_csv("resources/summary.csv")
+cols_to_keep = data.columns[:4]
+data = data[cols_to_keep]
+
+itables.init_notebook_mode(all_interactive=True)
+# show 5 rows per 'page'
+itables.options.lengthMenu = [10]
+
+# don't show the length control
+itables.options.layout["topStart"] = None
+itables.options.autoWidth = True
+
+# use a smaller font (default is medium)
+# see https://developer.mozilla.org/en-US/docs/Web/CSS/font-size
+display(HTML("<style>.dt-container { font-size: medium; }</style>"))
+itables.show(data, searching= False)
+```
+

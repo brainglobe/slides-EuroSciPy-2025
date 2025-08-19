@@ -1,0 +1,51 @@
+## What is an atlas?
+:::: {.columns}
+::: {.column width="50%" .fragment style="text-align: center"}
+![](img/allen_mouse_template.png){fig-align=left}
+Template/Reference Image
+:::
+
+::: {.column width="50%" .fragment style="text-align: center"}
+![](img/allen_mouse_annotation.png){fig-align=right}
+Annotation Image
+:::
+::::
+
+::: footer
+[The Allen Mouse Brain Common Coordinate Framework](https://doi.org/10.1016/j.cell.2020.04.007)
+:::
+
+## Why is it useful?
+<br/>
+<br/>
+
+:::{.incremental}
+* A standardised annotation and coordinate system 
+* Target for registering experimental data
+* Simplifies comparison across multiple subjects
+:::
+
+## Building atlases
+<br/>
+
+![](img/ANTs-Template-Construction.png){fig-align=center}
+
+::: footer
+[Devenyi, G. A. (2024). optimized_antsMultivariateTemplateConstruction (Version 1.0) [Computer software].](https://github.com/CoBrALab/optimized_antsMultivariateTemplateConstruction)
+:::
+
+## Building atlases
+
+![](img/blackcap_figure3_SNR.png){.nostretch fig-align="center" width=95%}
+
+::: footer
+[Sirmpilatze, N. et al. (2025) "Mapping the magnetoreceptive brain: A 3D digital atlas of the migratory bird Eurasian blackcap (Sylvia atricapilla)" bioRxiv 2025.03.04.641293](https://doi.org/10.1101/2025.03.04.641293)
+:::
+
+## Building atlases
+
+![](img/blackcap_figure3_closeupSNR.png){.nostretch fig-align="center" width=95%}
+
+::: footer
+[Sirmpilatze, N. et al. (2025) "Mapping the magnetoreceptive brain: A 3D digital atlas of the migratory bird Eurasian blackcap (Sylvia atricapilla)" bioRxiv 2025.03.04.641293](https://doi.org/10.1101/2025.03.04.641293)
+:::

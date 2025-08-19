@@ -1,0 +1,26 @@
+
+## Visualisation
+### [`brainrender`](https://github.com/brainglobe/brainrender)
+::: {.columns}
+::: {.column width="33%"}
+![](img/br-mouse.png){fig-align="center" height=300px}
+:::
+::: {.column width="33%"}
+![](img/br-human.png){fig-align="center" height=300px}
+:::
+::: {.column width="33%"}
+![](img/br-zebrafish.png){fig-align="center" height=300px}
+:::
+:::
+::: footer
+[Claudi, F. et al. (2021) “Visualizing anatomically registered data with Brainrender” eLife](https://doi.org/10.7554/eLife.65751)
+:::
+
+
+## Visualisation {background-video="img/cellfinder_small.mp4" background-video-loop="true"}
+### [`brainrender`](https://github.com/brainglobe/brainrender)
+
+::: footer
+[Claudi, F. et al. (2021) “Visualizing anatomically registered data with Brainrender” eLife, 10:e65751](https://doi.org/10.7554/eLife.65751)
+:::
+
