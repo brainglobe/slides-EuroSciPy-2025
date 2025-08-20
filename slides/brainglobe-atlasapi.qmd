@@ -61,3 +61,29 @@ print(VISp)
 ::: footer
 [Claudi, F. et al. (2020) “BrainGlobe Atlas API: a common interface for neuroanatomical atlases” JOSS, v5(54), 2668 ](https://doi.org/10.21105/joss.02668)
 :::
+
+## Example data { background-color="black" }
+![](img/whole.png){.nostretch fig-align="center" width=65%}
+
+## Example data { background-color="black" }
+![](img/crop.png){.nostretch fig-align="center" width=65%}
+
+## Whole-brain registration
+### [`brainreg`](https://github.com/brainglobe/brainreg)
+
+![](img/brainreg_filtering.png){.nostretch fig-align="center" width="100%"}
+
+
+::: footer
+[Tyson, A. L. et al. (2022) “Accurate determination of marker location within whole-brain microscopy images” Sci Rep, 12, 867](https://doi.org/10.1038/s41598-021-04676-9)
+:::
+
+## Whole-brain registration
+### [`brainreg`](https://github.com/brainglobe/brainreg)
+
+![](img/brainreg_2.gif){.nostretch fig-align="center" width="75%"}
+
+
+::: footer
+[Tyson, A. L. et al. (2022) “Accurate determination of marker location within whole-brain microscopy images” Sci Rep, 12, 867](https://doi.org/10.1038/s41598-021-04676-9)
+:::

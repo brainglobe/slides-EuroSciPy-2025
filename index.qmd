@@ -60,7 +60,7 @@ format:
 
 :::
 ::: {.column width="55%"}
-![](img/tracing.png)
+![](img/frame.png){.nostretch fig-align="center" height=100%}
 :::
 :::
 
@@ -82,14 +82,14 @@ format:
 
 {{< include slides/brainrender.qmd >}}
 
-# Thank you!
+# Thank you
 
 ## Acknowledgements 
 <br/>
 
 ::: {style="font-size: 80%;"}
 * Adam Tyson, Alessandro Felder, Niko Sirmpilatze
-* All past and present BrainGlobe contributors!
+* Past and present BrainGlobe contributors
 :::
-![](img/Chan_Zuckerberg_Initiative.png){.absolute height=120px top="45%" left="15%"} ![](img/swc.webp){.absolute height=120px top="46%" right="15%"}
-![](img/funders.webp){.absolute top=70%}
+![](img/Chan_Zuckerberg_Initiative.png){.absolute height=120px top="45%" right="15%"} ![](img/swc.webp){.absolute height=120px top="46%" left="10%"}
+![](img/funders.webp){.absolute top=70% right=3%}

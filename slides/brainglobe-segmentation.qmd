@@ -1,5 +1,18 @@
 ## [`brainglobe-segmentation`](https://github.com/brainglobe/brainglobe-segmentation)
-![](img/brainglobe-seg.png){fig-align="center" width=100%}
+<br/>
+<br/>
+
+:::: {.columns}
+
+::: {.column width="77%"}
+![](img/brainglobe-seg-main.png){.nostretch fig-align="right" height=80%}
+:::
+
+::: {.column width="23%"}
+![](img/brainglobe-seg-out.png){.nostretch fig-align="left" height=80%}
+:::
+
+::::
 
 ::: footer
 [Tyson, A. L. et al. (2022) “Accurate determination of marker location within whole-brain microscopy images” Sci Rep, 12, 867](https://doi.org/10.1038/s41598-021-04676-9)
@@ -8,8 +21,8 @@
 ## [`brainglobe-segmentation`](https://github.com/brainglobe/brainglobe-segmentation)
 <br/>
 
-![](img/brainglobe-segmentation.png){fig-align="center" width=100%}
+![](img/brainglobe-segmentation.png){.nostretch fig-align="center" width=100%}
 
 ::: footer
-[Tyson, A. L., Vélez-Fort, M., Rousseau, C. V. et al. (2022) “Accurate determination of marker location within whole-brain microscopy images” Scientific Reports, 12, 867](https://doi.org/10.1038/s41598-021-04676-9)
+[Tyson, A. L., et al. (2022) “Accurate determination of marker location within whole-brain microscopy images” Scientific Reports, 12, 867](https://doi.org/10.1038/s41598-021-04676-9)
 :::

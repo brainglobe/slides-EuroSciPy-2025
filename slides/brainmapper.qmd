@@ -1,32 +1,6 @@
-## Example data
-![](img/whole.png){fig-align="center" width=70%}
-
-## Example data
-![](img/crop.png){fig-align="center" width=70%}
-
-## Whole-brain registration
-### [`brainreg`](https://github.com/brainglobe/brainreg)
-
-![](img/brainreg_filtering.png){fig-align="center" width="110%"}
-
-
-::: footer
-[Tyson, A. L. et al. (2022) “Accurate determination of marker location within whole-brain microscopy images” Sci Rep, 12, 867](https://doi.org/10.1038/s41598-021-04676-9)
-:::
-
-## Whole-brain registration
-### [`brainreg`](https://github.com/brainglobe/brainreg)
-
-![](img/brainreg_napari.gif){fig-align="center" width="110%"}
-
-
-::: footer
-[Tyson, A. L. et al. (2022) “Accurate determination of marker location within whole-brain microscopy images” Sci Rep, 12, 867](https://doi.org/10.1038/s41598-021-04676-9)
-:::
-
 ## Cell detection
 ### [`cellfinder`](https://github.com/brainglobe/cellfinder)
-![](img/raw.png){fig-align="center" width=70%}
+![](img/raw.png){.nostretch fig-align="center" width=70%}
 
 ::: footer
 [Tyson, A. L. et al. (2021) “A deep learning algorithm for 3D cell detection in whole mouse brain image datasets" PLoS Comp Biol 17(5): e1009074.](https://doi.org/10.1371/journal.pcbi.1009074)
@@ -34,7 +8,7 @@
 
 ## Cell detection
 ### [`cellfinder`](https://github.com/brainglobe/cellfinder)
-![](img/detect.png){fig-align="center" width=70%}
+![](img/detect.png){.nostretch fig-align="center" width=70%}
 
 ::: footer
 [Tyson, A. L. et al. (2021) “A deep learning algorithm for 3D cell detection in whole mouse brain image datasets" PLoS Comp Biol 17(5): e1009074.](https://doi.org/10.1371/journal.pcbi.1009074)
@@ -43,7 +17,7 @@
 
 ## Cell detection
 ### [`cellfinder`](https://github.com/brainglobe/cellfinder)
-![](img/classify.png){fig-align="center" width=70%}
+![](img/classify.png){.nostretch fig-align="center" width=70%}
 
 ::: footer
 [Tyson, A. L. et al. (2021) “A deep learning algorithm for 3D cell detection in whole mouse brain image datasets" PLoS Comp Biol 17(5): e1009074.](https://doi.org/10.1371/journal.pcbi.1009074)
