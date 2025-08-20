@@ -24,7 +24,7 @@
 :::
 
 ## Cell detection in atlas space
-![](img/heatmap.png){fig-align="center"}
+![](img/heatmap.png){.nostretch fig-align="center"}
 
 ## Cell detection in atlas space
 ```{python}

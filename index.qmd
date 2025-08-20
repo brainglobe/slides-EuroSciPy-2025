@@ -7,7 +7,7 @@ execute:
 format:
     revealjs:
         theme: [default, niu-light.scss]
-        logo: img/logo_niu_light.png
+        logo: img/BG_logo.png
         footer: "EuroSciPy 2025 | 2025-08-21"
         slide-number: c
         menu:
